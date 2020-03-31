@@ -1,7 +1,7 @@
 #include "mbed.h"
 
 
-DigitalOut gpo(D0);
+DigitalOut gpo(D0)
 
 DigitalOut led(LED_RED);
 
@@ -16,7 +16,7 @@ int main()
 
        led = !led; // toggle led
 
-       wait(0.2f);
+       wait(0.5f);
 
    }
 
