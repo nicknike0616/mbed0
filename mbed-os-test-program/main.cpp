@@ -1,7 +1,7 @@
 #include "mbed.h"
 
 
-DigitalOut gpo(D0)
+DigitalOut gpo(D0);
 
 DigitalOut led(LED_RED);
 
